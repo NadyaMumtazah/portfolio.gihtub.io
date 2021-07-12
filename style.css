@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Mukta', sans-serif;
+    color: #DFDDC7;
+}
+
+.jumbotron {
+    padding-top: 120px;
+}
+.container-fluid {
+    padding: 30px;
+}
+
+.col img {
+    margin: 10px 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.row .kotak {
+    width: 100px;
+    height: 100px;
+}
+.vertical {
+    margin-bottom: 20px;
+    height: 50px;
+    border-left: 1px solid white;
+}
+.vertical h2 {
+    padding-top: 5px;
+}
+#projects {
+    padding-top: 80px;
+}
+.projects {
+    background-color: #E8DFDF;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+}
+.skill {
+    width: 100%;
+    margin: 20px;
+}
+.skill h4 {
+    text-align: center;
+}
+#contact {
+    padding-top: 80px;
+}
+.card {
+    padding: 20px 0px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid white;
+}
+.card-body {
+    padding: 20px 25px;
+}
+.form-label {
+    padding-top: 3px;
+}
+.form-control {
+    background-color: black;
+   border: none;
+   border-radius: 0px;
+}
+.btn {
+    padding: 6px 18px;
+    border: none;
+    outline: none;
+    background-color: #4F8A8B;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:hover {
+    background-color: #87A7B3;
+}
+footer {
+    margin-top: 50px;
+    background-color: #321F28;
+}
+.address {
+    margin-top: 20px;
+}
+.address ul li {
+    padding: 5px 0px;
+    list-style: none;
+}
+.address ul li i {
+    padding-right: 8px;
+}
+.address ul li a {
+    text-decoration: none;
+    color: white;
+}
+.address ul li a:hover {
+    color: grey;
+}
+/* desktop version */
+@media (min-width: 740px) {
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .container-fluid {
+        padding: 30px 100px;
+    }
+    .nav-link {
+        margin: 0px 15px;
+    }
+    .col img {
+        margin: 0px;
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+    }
+    .col img {
+        margin-left: 200px;
+    }
+    .skill {
+        width: 30%;
+        margin: 20px;
+    }
+    .card {
+        width: 40%;
+    }
+}
